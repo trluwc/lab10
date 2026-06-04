@@ -13,6 +13,7 @@ import {
   Badge
 } from 'react-bootstrap';
 import './App.css';
+import Lab9 from './Lab9.jsx';
 
 // Import images from imagesss folder outside src directory
 import img1 from '../imagesss/anhpizza1.png';
@@ -213,6 +214,9 @@ function App() {
           </div>
         </Form>
       </Container>
+
+      {/* Lab 9 Component Sections */}
+      <Lab9 />
     </div>
   );
 }
